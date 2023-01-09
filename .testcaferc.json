@@ -1,0 +1,21 @@
+{
+    "browsers" : "chrome",
+    "src" : "Typescript-demo/ts-demo.ts",
+    "skipJsErrors" : true,
+    "reporter": {
+        "name": "xunit",
+        "output": "reports/report.xml"
+    },
+    "screenshots" : {
+        "path" : "./configuration_file/screenshots",
+        "takeOnFails": true,
+        "fullPage" : true
+    },
+    "skipTsErrors": true,
+    "skipUncaughtErrors": true,
+    "concurrency": 1,
+    "selectorTimeout": 1000,
+    "assertionTimeout": 1000,
+    "pageLoadTimeout": 1000,
+    "speed": 0.1
+}

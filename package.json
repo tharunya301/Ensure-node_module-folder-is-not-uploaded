@@ -10,7 +10,8 @@
     "@faker-js/faker": "^7.6.0"
   },
   "scripts": {
-    "test": "testcafe chrome Typescript-demo/ts-demo.ts"
+    "test": "testcafe chrome Typescript-demo/ts-demo.ts",
+    "test:conffile": "testcafe"
   },
   "author": "tharunya ",
   "license": "ISC",
