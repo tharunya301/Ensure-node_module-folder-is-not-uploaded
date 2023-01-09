@@ -1,8 +1,10 @@
 import { Selector } from 'testcafe';
 import { faker } from '@faker-js/faker';
 
+const{ userVariables } = require ('testcafe');
+
 fixture('Access the demo site')
-    .page ('https://www.saucedemo.com');
+    .page (userVariables.url);
 
 test('Login form automate', async t => {
     console.log("---Automate the demo site---");
